@@ -12,7 +12,7 @@ alarm_sound.setProperty('voice', voices[0].id)
 alarm_sound.setProperty('rate', 150)
 
 def voice_alarm(alarm_sound):
-    playsound('E:\project python\opencv\sirine.mp3')
+    playsound('sirine.mp3')
 
 video=cv2.VideoCapture(0)
 initial_frame = None
